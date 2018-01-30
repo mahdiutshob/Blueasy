@@ -302,6 +302,22 @@ header{
     width: 570px;
     height: 380px;
 }
+.twitter_area{
+    background: #4bcaff;
+    padding-top: 80px;
+    padding-bottom: 75px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.twitter_content h4{
+    padding-top: 22px;
+    font-size: 18px;
+    line-height: 35px;
+}
+.twitter_icon{
+    font-size: 25px;
+    color: #fff;
+}
 
 /* ==========================================================================
    Helper classes
