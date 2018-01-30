@@ -192,6 +192,76 @@ header{
     font-size: 12px;
     text-align: justify;
 }
+.portfolio_area{
+    margin-top: 58px;
+}
+.portfolio_title{
+    text-transform: uppercase;
+}
+.portfolio_menu nav ul li{
+    padding: 0px 2px;
+}
+.portfolio_menu nav ul li a{
+    padding: 13px 20px;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+}
+.portfolio_menu nav ul li a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #4bcaff;
+    opacity: 0;
+}
+.portfolio_menu nav ul li a:hover{
+    background: transparent;
+    color: #4bcaff;
+}
+.portfolio_menu nav ul li a:hover::before{
+    background: transparent;
+    color: #4bcaff;
+    opacity: 1;
+}
+.portfolio_menu nav ul li .active{
+    background: transparent;
+    color: #4bcaff;
+}
+.portfolio_menu nav ul li.active a::before{
+    opacity: 1;
+}
+.portpolio_image{
+    margin-top: 76px;
+    margin-bottom: 82px;
+}
+.portfolio_img_one{
+    margin-bottom: 8px;
+    padding: 0px;
+    position: relative;
+}
+.portfolio_img_one::before {
+    content: "+";
+    position: absolute;
+    background: #454e55b8;
+    width: 270px;
+    height: 270px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 35px;
+    line-height: 267px;
+    color: #fff;
+    opacity: 0;
+
+}
+.portfolio_img_one:hover::before{
+    opacity: 1;
+}
 
 /* ==========================================================================
    Helper classes
