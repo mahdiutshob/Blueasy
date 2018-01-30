@@ -159,7 +159,6 @@ header{
 .menu_area nav ul li.active a::before{
     opacity: 1;
 }
-
 .slide_area h2{
     font-size: 42px;
     line-height: 42px;
@@ -169,7 +168,30 @@ header{
     padding: 10px 15px;
     margin: 5px;
 }
-
+.service_area{
+    background: #4bcaff;
+    padding-top: 76px;
+    padding-bottom: 70px;
+    color: #fff;
+}
+.service h2{
+    text-transform: uppercase;
+}
+.ser{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+}
+.service_one{
+    margin-top: 37px;
+}
+.service_one h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service_one p{
+    font-size: 12px;
+    text-align: justify;
+}
 
 /* ==========================================================================
    Helper classes
